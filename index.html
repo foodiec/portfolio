@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        portfolio
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/819fc9187b.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> -->
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="im" alt="PORTFOLIO">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">ABout</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Front End Developer</p>
+            <h1>Hi, I'm <spam>Tejas Juneja</spam> </h1>
+        </div>
+    </div>
+</div>
+<!-- --------------------about-------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="IMG_20230620_171530.jpg" alt="user">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>hello i am tejaqs graudtaued from college</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('edu')">Education</p>
+                    <p class="tab-links" onclick="opentab('s')">Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                    <li><span>HTML</span></li>
+                    <li><span>Javascript</span></li>
+                    <li><span>React</span></li>
+                    <li><span>C++</span></li>
+                    <li><span>Python</span></li>
+                    <li><span>MySQL</span></li>
+                    <li><span>DBMS</span></li>
+                    <li><span>CSS</span></li>
+
+                    
+                </ul>
+                </div>
+                <div class="tab-contents" id="edu">
+                    <ul>
+                        <li><span>Arya College Of Engineerung & IT</span><br>Btech in CS<br>2019-2023</li>
+                        <li><span>MKD school</span><br>Class XII <br>2018-2019</li>
+                    
+                </ul>
+                </div>
+                <div class="tab-contents" id="s">
+                    <ul>
+                    <li><span>To do list</span><br>using HTML, CSS, Javascript, react</li>
+                    <li><span>Swiggy clone</span><br>using HTML, CSS, Javascript, react</li>
+                    <li><span>Portfolio</span><br>using HTML, CSS, Javascript</li>
+                    
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------------service--------------- -->
+<div id="service">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web developer</h2>
+                <p>I can make your website in a short time and also update it for you.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Front End Developer</h2>
+                <p>I can make your website in a short time and also update it for you.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------------------------portfolio---------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="0f524db583ec01484926291fd2d08158.jpg" alt="work1">
+                <div class="layer">
+                    <h3>To-do List</h3>
+                    <p>This is my first project. I made this using HTML, CSS, JavaScript, Bootstrap, React Js
+                        </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="0f524db583ec01484926291fd2d08158.jpg" alt="work1">
+                <div class="layer">
+                    <h3>Swiggy clone</h3>
+                    <p>This is my first project on making a clone. I made this using HTML, CSS, JavaScript, React Js
+                        </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="0f524db583ec01484926291fd2d08158.jpg" alt="work1">
+                <div class="layer">
+                    <h3>shopping app</h3>
+                    <p>This is my first project. I made this using HTML, CSS, JavaScript, React Js
+                        </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------------contact------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i></i>tejasjuneja66@email.com</p>
+                <!-- <p>999992</p> -->
+                <div class="social">
+                    <a href="https://github.com/foodiec"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-solid fa-code"></i></a>
+                    <a href="https://www.linkedin.com/in/tejas-juneja/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/tejasjuneja66/"><i class="fa-solid fa-laptop-code"></i></a>
+                </div>
+                <a href="" download class="btn btn2">Download cv</a>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ made by tejas</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+    
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+
+</script>
+
+
+</body>
+</html>
